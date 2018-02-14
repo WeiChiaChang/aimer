@@ -1,0 +1,34 @@
+{
+  "name": "aimercss",
+  "version": "0.1.0",
+  "description": "A pithy CSS framework",
+  "main": "./dist/aimer.min.css",
+  "scripts": {
+    "test": "echo \"Testing\"",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeiChiaChang/aimer.git"
+  },
+  "keywords": [
+    "aimer",
+    "aimercss"
+  ],
+  "author": "WeiChiaChang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WeiChiaChang/aimer/issues"
+  },
+  "homepage": "https://github.com/WeiChiaChang/aimer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-git": "^2.5.1",
+    "gulp-header": "^2.0.1",
+    "gulp-size": "^3.0.0",
+    "gulp-stylus": "^2.7.0"
+  }
+}
